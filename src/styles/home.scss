@@ -1,0 +1,30 @@
+.holy-grail {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.holy-grail,
+.holy-grail-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.holy-grail-content {
+  flex: 1 1 auto;
+}
+
+// @media (min-width: 768px) {
+.holy-grail-sidebar-1 {
+  order: -1;
+}
+
+.holy-grail-body {
+  flex-direction: row;
+}
+
+.hg-sidebar {
+  flex: 0 0 7%;
+}
+// }

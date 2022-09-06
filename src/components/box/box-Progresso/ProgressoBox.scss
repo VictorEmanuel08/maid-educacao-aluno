@@ -1,0 +1,105 @@
+.boxProg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+  margin-left: -150px;
+  margin-top: 120px;
+  .container-progresso {
+    h1 {
+      text-align: left;
+      font: normal normal normal 36px/48px Segoe UI;
+      letter-spacing: 0px;
+      color: #707070;
+      opacity: 1;
+    }
+    .container-progresso-box {
+      display: flex;
+      margin-top: 50px;
+      width: 60vw;
+      height: 650px;
+      /* UI Properties */
+      background: #ebebeb 0% 0% no-repeat padding-box;
+      border-radius: 20px;
+      opacity: 1;
+      .esquerda {
+        margin-top: 30px;
+        .notas {
+          text-align: left;
+          h1 {
+            margin-left: 40px;
+            text-align: left;
+            font: normal normal normal 40px/53px Segoe UI;
+            letter-spacing: 0px;
+            color: #0291b2;
+            opacity: 1;
+          }
+          p {
+            margin-top: 20px;
+            margin-left: 80px;
+            text-align: left;
+            font: normal normal normal 25px/40px Segoe UI;
+            letter-spacing: NaNpx;
+            color: #707070;
+            opacity: 1;
+          }
+        }
+        .simulados {
+          margin-top: 80px;
+          text-align: left;
+          h1 {
+            margin-left: 40px;
+            text-align: left;
+            font: normal normal normal 40px/53px Segoe UI;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+          }
+          p {
+            margin-top: 20px;
+            margin-left: 80px;
+            text-align: left;
+            font: normal normal normal 25px/40px Segoe UI;
+            letter-spacing: NaNpx;
+            color: #707070;
+            opacity: 1;
+          }
+        }
+      }
+      .direita {
+        margin-top: 30px;
+        margin-left: 180px;
+        text-align: left;
+        h1 {
+          margin-left: 40px;
+          text-align: left;
+          font: normal normal normal 40px/53px Segoe UI;
+          letter-spacing: 0px;
+          color: #707070;
+          opacity: 1;
+        }
+        .grafico-aula {
+          margin-top: -50px;
+          margin-left: 50px;
+        }
+        .materiais {
+          margin-top: 110px;
+          text-align: left;
+          h1 {
+            margin-left: 40px;
+            text-align: left;
+            font: normal normal normal 40px/53px Segoe UI;
+            letter-spacing: 0px;
+            color: #707070;
+            opacity: 1;
+          }
+          .grafico-materiais {
+            margin-top: -50px;
+            margin-left: 50px;
+          }
+        }
+      }
+    }
+  }
+}

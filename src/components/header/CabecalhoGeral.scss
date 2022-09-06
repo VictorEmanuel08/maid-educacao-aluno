@@ -1,0 +1,157 @@
+.cabeçalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  // padding-top: 12px;
+  // padding-bottom: 12px;
+
+  width: 100%;
+  height: 81px;
+
+  background: var(--unnamed-color-0291b2) 0% 0% no-repeat padding-box;
+  background: #0291b2 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  .esquerda {
+    margin-right: 40px;
+  }
+
+  .logoEducacao > img {
+    width: 212px;
+    height: 56px;
+    padding-top: 5px;
+    opacity: 1;
+    margin-left: 20px;
+  }
+
+  .direita {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .avatar > img {
+      width: 36px;
+      height: 36px;
+      margin-right: 20px;
+
+      background: transparent
+        url('../../assets/images/home/cabeçalho/PERFIL/PERFIL.png') 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+    }
+
+    .notify > img {
+      top: 28px;
+      left: 1718px;
+      width: 26px;
+      height: 26px;
+
+      background: transparent
+        url('../../assets/images/home/cabeçalho/ALARME/ALARME.png') 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+
+      margin-right: 20px;
+    }
+
+    .notion > img {
+      top: 30px;
+      left: 1765px;
+      width: 24px;
+      height: 24px;
+
+      background: transparent
+        url('../../assets/images/home/cabeçalho/NOTAS/NOTAS.png') 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+
+      margin-right: 20px;
+    }
+
+    .calendar > img {
+      top: 31px;
+      left: 1811px;
+      width: 23px;
+      height: 23px;
+
+      background: transparent
+        url('../../assets/images/home/cabeçalho/CALENDARIO/CALENDARIO.png') 0%
+        0% no-repeat padding-box;
+      opacity: 1;
+
+      margin-right: 20px;
+    }
+
+    .exit > img {
+      top: 29px;
+      left: 1855px;
+      width: 23px;
+      height: 23px;
+
+      background: transparent
+        url('../../assets/images/home/cabeçalho/SAIR/SAIR.png') 0% 0% no-repeat
+        padding-box;
+      opacity: 1;
+
+      margin-right: 20px;
+    }
+  }
+}
+
+.line {
+  display: flex;
+  background: #18c4b3;
+
+  width: 100%;
+  height: 12px;
+
+  background: var(--unnamed-color-18c4b3) 0% 0% no-repeat padding-box;
+  background: #18c4b3 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+aside {
+  display: flex;
+
+  top: 81px;
+  left: 0px;
+  width: 120px;
+  height: 2079px;
+  background: #ebebeb 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  .aulas {
+    margin-left: 15px;
+    top: 152px;
+    left: 17px;
+    width: 86px;
+    height: 88px;
+
+    background: #02a7cc 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 6px #00000029;
+    opacity: 1;
+
+    .aulas > img {
+      display: flex;
+      top: 800px;
+      left: 39px;
+      width: 41px;
+      height: 44px;
+      /* UI Properties */
+      background: transparent
+        url('../../assets/images/home/asideLeft/AULAS/AULAS.png') 0% 0%
+        no-repeat padding-box;
+      opacity: 1;
+    }
+  }
+}
+
+.body {
+  display: flex;
+}
+
+.rightBody {
+  display: flex;
+}

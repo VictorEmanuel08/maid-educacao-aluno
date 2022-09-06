@@ -1,0 +1,28 @@
+.TUDO {
+  width: 100%;
+  height: 1080px;
+  .cabecalho {
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+  }
+
+  .corpo {
+    .sideLeft {
+      display: flex;
+      float: left;
+      position: fixed;
+    }
+    .homebox {
+      display: flex;
+      float: left;
+      width: 100vw;
+    }
+    .sideRight {
+      display: flex;
+      float: right;
+      position: fixed;
+      right: 0;
+    }
+  }
+}
